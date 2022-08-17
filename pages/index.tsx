@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             <p className="mb-8 leading-relaxed text-lg">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
             Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Work With Us</button>
+              <button className="inline-flex text-white bg-brand-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Work With Us</button>
               {/*<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>*/}
             </div>
           </div>
@@ -30,14 +30,14 @@ const Home: NextPage = () => {
       <section className="text-gray-600 body-font bg-gray-100">
         <div className="container py-12 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
-            <h2 className="text-xs text-blue-600 tracking-widest font-medium title-font mb-1">SERVICES</h2>
+            <h2 className="text-xs text-brand-500 tracking-widest font-medium title-font mb-1">SERVICES</h2>
             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 max-w-xl mx-auto">Think of us as a partner, not agency in your business journey.</h1>
           </div>
           <div className="flex flex-wrap m-4">
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx={12} cy={7} r={4} />
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
                   <Link href="/services">
-                  <a  className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a  className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <circle cx={6} cy={6} r={3} />
                       <circle cx={6} cy={18} r={3} />
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx={12} cy={7} r={4} />
@@ -134,7 +134,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col">
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-600 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <circle cx={6} cy={6} r={3} />
                       <circle cx={6} cy={18} r={3} />
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-blue-600 inline-flex items-center">Learn More
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
@@ -174,7 +174,7 @@ const Home: NextPage = () => {
             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4">Some of our happy clients</h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-blue-600 inline-flex" />
+              <div className="w-16 h-1 rounded-full bg-brand-500 inline-flex" />
             </div>
           </div>
           <div className="flex items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -199,14 +199,14 @@ const Home: NextPage = () => {
       <section className="text-gray-600 body-font">
         <div className="container pb-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h2 className="text-xs text-blue-600 tracking-widest font-medium title-font mb-1">TESTIMONIALS</h2>
+          <h2 className="text-xs text-brand-500 tracking-widest font-medium title-font mb-1">TESTIMONIALS</h2>
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">See why our customers love us</h1>
           
         </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-blue-50 p-8 rounded">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-blue-500 mb-4" viewBox="0 0 975.036 975.036">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
                 <p className="leading-relaxed mb-6 text-xl">Learn Kraft is my no. 1 recommendation for any web development work, globally!</p>
@@ -221,7 +221,7 @@ const Home: NextPage = () => {
             </div>
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-blue-50 p-8 rounded">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-blue-500 mb-4" viewBox="0 0 975.036 975.036">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
                 <p className="leading-relaxed mb-6 text-xl">Thank you for an amazing service. My ecommerce store has become much faster now and the conversion rate has doubled. I look forward to continuous engagement with you.</p>
@@ -238,7 +238,7 @@ const Home: NextPage = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-blue-50 p-8 rounded">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-blue-500 mb-4" viewBox="0 0 975.036 975.036">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
                 <p className="leading-relaxed mb-6 text-xl">I&#8217;ve been working with Learn Kraft and their team for over a year now. We are an exclusive design house and had been working with many developers to execute our projects. That was a big challenge for us. Now all our projects are executed just by Learn Kraft. The team has expertise in every area of web development and they deliver really quick.</p>
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
             </div>
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-blue-50 p-8 rounded">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-blue-500 mb-4" viewBox="0 0 975.036 975.036">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
                 <p className="leading-relaxed mb-6 text-xl">Manish went beyond the web development aspect and identified, suggested and implement things that would have taken us ages to figure out. It won't be an exaggeration if I say that web development service he provides is the bonus; the real deal is his vast knowledge, strategic thinking and partner like involvement.</p>
