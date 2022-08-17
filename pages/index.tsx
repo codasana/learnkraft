@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import Layout from "../components/Layout"
 const Home: NextPage = () => {
   return (
-    <Layout title="Learn Kraft">
+    <Layout title="Web Development and Content Marketing">
       {/* HERO */}
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center">
