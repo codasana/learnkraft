@@ -190,7 +190,7 @@ const Home: NextPage = () => {
             <div className="p-6"><Image src="/images/ft-logo.png" height="35" width="172" /></div>
             <div className="p-6"><Image src="/images/iaied.png" height="39" width="100" /></div>
             <div className="p-6"><Image src="/images/hifi-logo.gif" height="55" width="90" /></div>
-            <div className="p-6"><Image src="/images/northern-think-tank-logo.png" height="29" width="100" /></div>
+            <div className="p-6"><Image src="/images/marketxls-logo.png" height="27" width="150" /></div>
 
           </div>
         </div>
