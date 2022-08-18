@@ -32,7 +32,7 @@ export default function Footer() {
 
             {/* Social Handles */}
             <div className="flex items-center justify-center mb-6">
-              <a className="text-sm text-gray-500" href="https://twitter.com" target="_blank" rel="noreferrer">
+              <a className="text-sm text-gray-500" href="https://twitter.com/learnkraft" target="_blank" rel="noreferrer">
                 <svg
                   className="fill-current text-gray-500 transition-colors hover:text-[#1da1f2]"
                   width="20"
@@ -54,7 +54,7 @@ export default function Footer() {
                 </svg>
               </a>*/}
 
-              <a className="text-sm text-gray-500 ml-6" href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <a className="text-sm text-gray-500 ml-6" href="https://www.facebook.com/learnkraft" target="_blank" rel="noreferrer">
                 <svg
                   className="fill-current text-gray-500 transition-colors hover:text-[#0778e8]"
                   width="20"

@@ -8,16 +8,23 @@ const Home: NextPage = () => {
   return (
     <Layout title="Web Development and Content Marketing">
       {/* HERO */}
-      <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex py-16 md:flex-row flex-col items-center">
+      <section className="text-gray-600 body-font bg-gradient-to-b from-blue-200"> {/*   */}
+        <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in web 
-              <br className="hidden lg:inline-block" />development and content marketing
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in <span className="text-brand-500">web</span> 
+              <br className="hidden lg:inline-block" /><span className="text-brand-600">development</span> and <span className="text-brand-500">content marketing</span>
             </h1>
             <p className="mb-8 leading-relaxed text-lg">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
             Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-brand-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Work With Us</button>
+              <Link href="/contact">
+                <a className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
+                  Work With Us
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                      </svg>
+                </a>
+              </Link>
               {/*<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>*/}
             </div>
           </div>
@@ -28,7 +35,7 @@ const Home: NextPage = () => {
       </section>
       {/* FEATURES */}
       <section className="text-gray-600 body-font bg-gray-100">
-        <div className="container py-12 mx-auto">
+        <div className="container py-12 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="flex flex-col text-center w-full mb-8">
             <h2 className="text-xs text-brand-500 tracking-widest font-medium title-font mb-1">SERVICES</h2>
             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 max-w-xl mx-auto">Think of us as a partner, not agency in your business journey.</h1>
@@ -46,11 +53,13 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                  <Link href="/services/apps">
+                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -67,7 +76,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services">
+                  <Link href="/services/apps">
                   <a  className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
@@ -91,11 +100,13 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                  <Link href="/services/websites">
+                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -113,11 +124,13 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                  <Link href="/services/content-marketing">
+                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -134,11 +147,13 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <Link href="/services/marketing-automation">
                   <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,7 +184,7 @@ const Home: NextPage = () => {
       </section>
       {/* CLIENTS */}
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="text-center mb-12">
             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4">Some of our happy clients</h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
@@ -197,7 +212,7 @@ const Home: NextPage = () => {
       </section>
 
       <section className="text-gray-600 body-font">
-        <div className="container pb-12 mx-auto">
+        <div className="container pb-12 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
         <div className="flex flex-col text-center w-full mb-12">
           <h2 className="text-xs text-brand-500 tracking-widest font-medium title-font mb-1">TESTIMONIALS</h2>
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">See why our customers love us</h1>
@@ -270,30 +285,32 @@ const Home: NextPage = () => {
         </div>
       </section>
       {/* CTA */}
-      <section className="text-gray-600 body-font bg-gray-800 rounded">
-        <div className="container mx-auto flex px-10 py-12 md:flex-row flex-col items-center mb-12">
+      <section className="text-gray-600 body-font bg-blue-50 rounded">
+        <div className="container mx-auto flex px-10 py-12 md:flex-row flex-col items-center mb-12 px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">Hire Us</h1>
-            <p className="mb-8 leading-relaxed text-white text-lg">Have a project in mind? Let's talk. </p>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extraboldtext-gray-900">Hire Us</h1>
+            <p className="mb-8 leading-relaxed text-gray-900 text-lg">Have a project in mind? Let's talk. </p>
             <div className="flex w-full md:justify-start justify-center items-end mb-12">
               {/*<div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
                 <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
                 <input type="text" id="hero-field" name="hero-field" className="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
   </div>*/}
-              <button className="inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg shadow shadow-lg">Schedule Your Free Consultation</button>
+              <Link href="/contact">
+                <a className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg shadow shadow-lg">Schedule Your Free Consultation</a>
+              </Link>
             </div>
 
-            <div className="flex lg:flex-row md:flex-col">
-              <a href="https://wa.me/919901599967" target="_blank" className="bg-gray-100 inline-flex py-3 px-5 rounded items-center hover:bg-gray-200 focus:outline-none">
+            <div className="flex lg:flex-row md:flex-col ml-1 mt-4">
+              <a href="https://wa.me/919901599967" target="_blank" className="inline-flex rounded items-center focus:outline-none mr-6  hover:underline">
                 <Image src="/images/whatsapp-brands.png" height="23" width="20"/>
-                <span className="ml-4 flex items-start flex-col leading-none">
-                  <span className="text-base text-gray-600">WhatsApp</span>
+                <span className="ml-2 flex items-start flex-col leading-none">
+                  <span className="text-lg text-gray-600">+91 9901599967</span>
                 </span>
               </a>
-              <a href="mailto:manish@learnkraft.com" className="bg-gray-100 inline-flex py-3 px-5 rounded items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
+              <a href="mailto:hello@learnkraft.com" className="inline-flex rounded items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 focus:outline-none hover:underline">
               <Image src="/images/envelope-solid.png" height="20" width="20"/>
-                <span className="ml-4 flex items-start flex-col leading-none">
-                  <span className="text-base text-gray-600">manish@learnkraft.com</span>
+                <span className="ml-2 flex items-start flex-col leading-none">
+                  <span className="text-lg text-gray-600">hello@learnkraft.com</span>
                 </span>
               </a>
             </div>

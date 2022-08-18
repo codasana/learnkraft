@@ -39,12 +39,12 @@ export default function Header() {
 
 
   return (
-    <div id="header" className="border-b">
+    <div id="header"> {/* className="border-b"*/}
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
-          <div className="container mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
-            <div className="relative flex items-center justify-between h-16">
+          <div className="bg-blue-200">
+            <div className="relative flex items-center justify-between h-20 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -61,11 +61,11 @@ export default function Header() {
                 <div className="flex cursor-pointer grow">
                   
                   <img
-                    className="block lg:hidden h-8 w-auto ml-12"
+                    className="block lg:hidden h-9 w-auto ml-12"
                     src="/images/lk-logo-square.png"
                     alt="Learn Kraft Logo"
                   />
-                  <img src="/images/lk-logo.png" width="184" height="40" className="hidden lg:block h-8 w-auto" alt="Finance Train Logo"/>
+                  <img src="/images/lk-logo.png" width="215" height="50" className="hidden lg:block h-9 w-auto" alt="Finance Train Logo"/>
 
                 </div>
                 </a>
@@ -97,25 +97,16 @@ export default function Header() {
                     <Menu.Items className="z-10 origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/track/r-programming"
+                          <a href="/services/apps"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
-                            Web Apps
+                            Web and Mobile Apps
                           </a>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/track/python-programming"
-                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
-                          >
-                            Mobile Apps
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a href="/section/cfa-level-1"
+                          <a href="/services/websites"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
                             Marketing Websites
@@ -124,7 +115,7 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/track/derivatives-courses"
+                          <a href="/services/content-marketing"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
                             Content Marketing
@@ -133,7 +124,7 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/track/statistics-maths"
+                          <a href="/services/marketing-automation"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
                             Marketing Automation
@@ -142,7 +133,7 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/track/statistics-maths"
+                          <a href="/services/maintenance"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
                             Ongoing Maintenance
@@ -172,7 +163,7 @@ export default function Header() {
               <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <div className="space-x-4">
                   <Link href="/contact" passHref>
-                    <a className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-emerald-400 focus:outline-none hover:text-white hover:bg-ligreen-normal">
+                    <a className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-slate-700 focus:outline-none hover:text-white hover:bg-ligreen-normal">
                     Schedule Your Free Consultation
                   </a>
                   </Link>

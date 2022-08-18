@@ -31,13 +31,13 @@ const Layout: React.FC<Props> = ({
     <link rel="manifest" href="/site.webmanifest" />
 <meta name="theme-color" content="#ffffff" />  dark:bg-gray-800*/}
   </Head>
-  <div className="font-sans antialiased bg-white">
-    {<Header />}
-    <main className="container mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
-      {children}
-    </main>
-    {<Footer/>}
-  </div>
+    <div className="font-sans antialiased bg-white">
+      {<Header />}
+      <main > {/* className="container" mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl*/}
+        {children}
+      </main>
+      {<Footer/>}
+    </div>
   </>
 );
 
