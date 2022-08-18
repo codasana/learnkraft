@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Inter', 'sans-serif']
+      'sans': ['Inter', 'sans-serif'],
+      'serif': ['Domine', 'ui-serif'],
     },
     extend: {
       colors: {
@@ -25,5 +26,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography')],
 }
