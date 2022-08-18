@@ -11,10 +11,11 @@ const Home: NextPage = () => {
       <section className="text-gray-600 body-font bg-gradient-to-b from-blue-200"> {/*   */}
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            {/*<h2 className="text-amber-500 bg-blue-50 rounded-lg px-2 py-1 mb-2 uppercase font-semibold text-sm">Web &middot; Mobile &middot; Content</h2>*/}
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in <span className="text-brand-500">web</span> 
               <br className="hidden lg:inline-block" /><span className="text-brand-600">development</span> and <span className="text-brand-500">content marketing</span>
             </h1>
-            <p className="mb-8 leading-relaxed text-lg">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
+            <p className="mb-8 leading-relaxed text-lg text-gray-800">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
             Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
             <div className="flex justify-center">
               <Link href="/contact">
@@ -286,9 +287,16 @@ const Home: NextPage = () => {
       </section>
       {/* CTA */}
       <section className="text-gray-600 body-font bg-blue-50 rounded">
-        <div className="container mx-auto flex px-10 py-12 md:flex-row flex-col items-center mb-12 px-2 sm:px-6 lg:px-8 max-w-screen-xl">
+        <div className="container mx-auto flex py-12 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extraboldtext-gray-900">Hire Us</h1>
+            <div className="">
+              <img
+                className="h-10 mb-10"
+                src="/images/lk-logo-square.png"
+                alt="Learn Kraft Logo"
+              />
+            </div>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Hire Us</h1>
             <p className="mb-8 leading-relaxed text-gray-900 text-lg">Have a project in mind? Let's talk. </p>
             <div className="flex w-full md:justify-start justify-center items-end mb-12">
               {/*<div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
@@ -316,7 +324,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+            <img className="object-cover object-center rounded" alt="hero" src="/images/undraw_personal_email_re_4lx7.svg" />
           </div>
         </div>
       </section>
