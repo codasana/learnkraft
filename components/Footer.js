@@ -3,58 +3,83 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-      <footer>
-          <div className="bg-white border-t border-gray-200">
-            <div className="flex items-center justify-center my-6 flex-col md:flex-row">
-              <Link href="/">
-                <a className="text-sm text-gray-500 font-medium hover:text-black">Home</a>
+        <footer class="text-gray-600 body-font bg-gradient-to-b from-gray-800 to-gray-900">
+        <div class="container py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col px-2 sm:px-6 lg:px-8 max-w-screen-xl">
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img
+                className="h-10 mb-10"
+                src="/images/lk-logo-square.png"
+                alt="Learn Kraft Logo"
+              />
+            </a>
+            <h2 className="text-white rounded-lg py-1 mt-2 uppercase font-semibold text-sm">Web &middot; Mobile &middot; Content</h2>
+          </div>
+          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-semibold text-white tracking-widest text-lg mb-3">Menu</h2>
+              <nav class="list-none mb-10">
+                <li className="mb-2">
+                <Link href="/">
+                <a className="text-base text-gray-300 font-medium hover:text-black">Home</a>
               </Link>
-              <Link href="/about">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">About</a>
+                </li>
+                <li className="mb-2">
+                <Link href="/about">
+                <a className="text-base text-gray-300 font-medium hover:text-black">About</a>
               </Link>
-              <Link href="/services">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">Services</a>
+                </li>
+                <li>
+                <Link href="/services">
+                <a className="text-base text-gray-300 font-medium hover:text-black">Services</a>
               </Link>
-              <Link href="/blog">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">Blog</a>
-              </Link>
-              <Link href="/contact">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">Contact Us</a>
-              </Link>
-              {/*<Link href="/resources/privacy-policy">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">Privacy Policy</a>
-              </Link>*/}
-              
-              {/*<Link href="/resources/terms">
-                <a className="text-sm text-gray-500 font-medium md:ml-6 hover:text-black">Terms of use</a>
-              </Link>*/}
+                </li>
+
+              </nav>
             </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-lg mb-3">&nbsp;</h2>
+              <nav class="list-none mb-10">
+              <li  className="mb-2">
+                <Link href="/blog">
+                <a className="text-base text-gray-300 font-medium hover:text-black">Blog</a>
+              </Link>
+                </li>
+                <li>
+              <Link href="/contact">
+                <a className="text-base text-gray-300 font-medium hover:text-black">Contact Us</a>
+              </Link>
+              </li>
+              </nav>
+            </div>
+            <div class="lg:w-2/4 md:w-1/2 w-full px-4">
 
-            {/* Social Handles */}
-            <div className="flex items-center justify-center mb-6">
-              <a className="text-sm text-gray-500" href="https://twitter.com/learnkraft" target="_blank" rel="noreferrer">
-                <svg
-                  className="fill-current text-gray-500 transition-colors hover:text-[#1da1f2]"
-                  width="20"
-                  height="18"
-                  viewBox="0 0 20 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M19.9617 2.80748C19.2242 3.13164 18.4367 3.35248 17.6075 3.45331C18.4525 2.94414 19.1025 2.14164 19.41 1.18414C18.6175 1.64664 17.7392 1.98331 16.8042 2.17081C16.0575 1.37164 14.9933 0.871643 13.8117 0.871643C11.5475 0.871643 9.71167 2.70748 9.71167 4.96914C9.71167 5.29414 9.74917 5.60664 9.8175 5.90581C6.40917 5.74498 3.38833 4.10831 1.36667 1.63414C1.01083 2.23581 0.811667 2.93498 0.811667 3.69664C0.811667 5.12164 1.53667 6.37414 2.635 7.10998C1.9625 7.08831 1.33 6.90331 0.778333 6.59664V6.64748C0.778333 8.63498 2.18917 10.2925 4.06667 10.67C3.7225 10.7625 3.35917 10.8125 2.98667 10.8125C2.725 10.8125 2.47417 10.7875 2.22333 10.7408C2.74917 12.3683 4.26083 13.555 6.06 13.5883C4.66 14.6875 2.88583 15.3425 0.975 15.3425C0.65 15.3425 0.325833 15.3233 0 15.2866C1.82417 16.4483 3.97333 17.1275 6.2975 17.1275C13.8425 17.1275 17.9633 10.8808 17.9633 5.47248C17.9633 5.29831 17.9633 5.12248 17.9508 4.94748C18.7517 4.37331 19.4508 3.64748 20.0008 2.82414L19.9617 2.80748Z" />
-                </svg>
-              </a>
-              {/*<a className="text-sm text-gray-500 ml-6" href="https://www.instagram.com/listolia_com/" target="_blank" rel="noreferrer">
-                <svg 
-                  className="fill-current text-gray-500 transition-colors hover:text-[#833AB4]" 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  viewBox="0 0 20 20">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M10 0C7.28333 0 6.94417 0.0125 5.8775 0.06C4.8125 0.11 4.0875 0.2775 3.45 0.525C2.7925 0.78 2.23417 1.1225 1.67833 1.67833C1.1225 2.23417 0.779167 2.79167 0.525 3.45C0.2775 4.0875 0.109167 4.8125 0.06 5.8775C0.01 6.94417 0 7.28333 0 10C0 12.7167 0.0125 13.0558 0.06 14.1225C0.11 15.1867 0.2775 15.9125 0.525 16.55C0.78 17.2067 1.1225 17.7658 1.67833 18.3217C2.23417 18.8767 2.79167 19.2208 3.45 19.475C4.08833 19.7217 4.81333 19.8908 5.8775 19.94C6.94417 19.99 7.28333 20 10 20C12.7167 20 13.0558 19.9875 14.1225 19.94C15.1867 19.89 15.9125 19.7217 16.55 19.475C17.2067 19.22 17.7658 18.8767 18.3217 18.3217C18.8767 17.7658 19.2208 17.2092 19.475 16.55C19.7217 15.9125 19.8908 15.1867 19.94 14.1225C19.99 13.0558 20 12.7167 20 10C20 7.28333 19.9875 6.94417 19.94 5.8775C19.89 4.81333 19.7217 4.08667 19.475 3.45C19.22 2.7925 18.8767 2.23417 18.3217 1.67833C17.7658 1.1225 17.2092 0.779167 16.55 0.525C15.9125 0.2775 15.1867 0.109167 14.1225 0.06C13.0558 0.01 12.7167 0 10 0ZM9.99922 1.80002C12.6684 1.80002 12.9867 1.81336 14.0409 1.85919C15.0159 1.90502 15.5451 2.06669 15.8967 2.20502C16.3651 2.38586 16.6967 2.60252 17.0484 2.95169C17.3976 3.30169 17.6142 3.63419 17.7951 4.10252C17.9317 4.45419 18.0951 4.98336 18.1392 5.95836C18.1867 7.01336 18.1976 7.33002 18.1976 10C18.1976 12.67 18.1851 12.9875 18.1359 14.0417C18.0851 15.0167 17.9226 15.5459 17.7851 15.8975C17.5984 16.3659 17.3859 16.6975 17.0359 17.0492C16.6867 17.3984 16.3492 17.615 15.8859 17.7959C15.5359 17.9325 14.9984 18.0959 14.0234 18.14C12.9617 18.1875 12.6492 18.1984 9.97422 18.1984C7.29839 18.1984 6.98589 18.1859 5.92505 18.1367C4.94922 18.0859 4.41172 17.9234 4.06172 17.7859C3.58755 17.5992 3.26172 17.3867 2.91255 17.0367C2.56172 16.6875 2.33755 16.35 2.16255 15.8867C2.02505 15.5367 1.86339 14.9992 1.81255 14.0242L1.81055 13.9681C1.77458 12.9618 1.76172 12.6021 1.76172 9.98752C1.76172 7.37559 1.77454 7.01261 1.81041 5.9974L1.81255 5.93669C1.86339 4.96169 2.02505 4.42502 2.16255 4.07502C2.33755 3.60002 2.56172 3.27502 2.91255 2.92419C3.26172 2.57502 3.58755 2.35002 4.06172 2.17586C4.41172 2.03752 4.93755 1.87502 5.91255 1.82502L5.9607 1.82332C6.98514 1.78715 7.32837 1.77502 9.96172 1.77502L9.99922 1.80002ZM4.86328 10.0001C4.86328 7.16511 7.16078 4.86511 9.99828 4.86511C12.8333 4.86511 15.1333 7.16261 15.1333 10.0001C15.1333 12.8351 12.8358 15.1351 9.99828 15.1351C7.16328 15.1351 4.86328 12.8376 4.86328 10.0001ZM10.0052 13.3334C8.16354 13.3334 6.67188 11.8417 6.67188 10.0001C6.67188 8.15841 8.16354 6.66675 10.0052 6.66675C11.8469 6.66675 13.3385 8.15841 13.3385 10.0001C13.3385 11.8417 11.8469 13.3334 10.0052 13.3334ZM15.3367 5.86242C15.9984 5.86242 16.5367 5.32492 16.5367 4.66242C16.5367 4.00076 15.9976 3.46242 15.3367 3.46326C14.6751 3.46326 14.1367 4.00076 14.1367 4.66242C14.1367 5.32409 14.6742 5.86242 15.3367 5.86242Z"/>
-                </svg>
-              </a>*/}
-
-              <a className="text-sm text-gray-500 ml-6" href="https://www.facebook.com/learnkraft" target="_blank" rel="noreferrer">
+            </div>
+            {/*<div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </nav>
+            </div>*/}
+          </div>
+        </div>
+        <div>
+          <div class="container mx-auto py-4 flex flex-wrap flex-col sm:flex-row px-2 sm:px-6 lg:px-8 max-w-screen-xl">
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2022. Learn Kraft, All right reserverd.
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500" href="https://www.facebook.com/learnkraft">
                 <svg
                   className="fill-current text-gray-500 transition-colors hover:text-[#0778e8]"
                   width="20"
@@ -66,24 +91,32 @@ export default function Footer() {
                   <path d="M19.9984 9.99925C19.9984 4.4768 15.5217 0 9.99925 0C4.4768 0 0 4.4768 0 9.99925C0 14.9902 3.65657 19.1268 8.43683 19.877V12.8897H5.89798V9.99925H8.43683V7.79627C8.43683 5.29022 9.92967 3.90595 12.2137 3.90595C13.3077 3.90595 14.452 4.10124 14.452 4.10124V6.56199H13.1912C11.949 6.56199 11.5616 7.33278 11.5616 8.12353V9.99925H14.3348L13.8915 12.8897H11.5616V19.877C16.3419 19.1268 19.9984 14.9902 19.9984 9.99925Z" />
                 </svg>
               </a>
-              {/*<a className="text-sm text-gray-500 ml-6" href="">
+              <a class="ml-6 text-gray-500" href="https://twitter.com/learnkraft" target="_blank" rel="noreferrer">
                 <svg
-                  className="fill-current text-gray-500 transition-colors hover:text-[#0a66c2]"
+                  className="fill-current text-gray-500 transition-colors hover:text-[#1da1f2]"
                   width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
+                  height="18"
+                  viewBox="0 0 20 18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M19.3858 19.3911H15.4369V13.2033C15.4369 11.7278 15.4069 9.82887 13.3791 9.82887C11.3202 9.82887 11.0058 11.4344 11.0058 13.0944V19.3911H7.05691V6.66664H10.8502V8.40109H10.9014C11.4314 7.40109 12.7202 6.34553 14.6458 6.34553C18.6469 6.34553 19.3869 8.97887 19.3869 12.4066V19.3911H19.3858ZM2.59691 4.92553C1.3258 4.92553 0.304688 3.89664 0.304688 2.63109C0.304688 1.36664 1.32691 0.338867 2.59691 0.338867C3.86358 0.338867 4.89024 1.36664 4.89024 2.63109C4.89024 3.89664 3.86247 4.92553 2.59691 4.92553ZM4.57691 19.3911H0.61691V6.66664H4.57691V19.3911Z" />
+                  <path d="M19.9617 2.80748C19.2242 3.13164 18.4367 3.35248 17.6075 3.45331C18.4525 2.94414 19.1025 2.14164 19.41 1.18414C18.6175 1.64664 17.7392 1.98331 16.8042 2.17081C16.0575 1.37164 14.9933 0.871643 13.8117 0.871643C11.5475 0.871643 9.71167 2.70748 9.71167 4.96914C9.71167 5.29414 9.74917 5.60664 9.8175 5.90581C6.40917 5.74498 3.38833 4.10831 1.36667 1.63414C1.01083 2.23581 0.811667 2.93498 0.811667 3.69664C0.811667 5.12164 1.53667 6.37414 2.635 7.10998C1.9625 7.08831 1.33 6.90331 0.778333 6.59664V6.64748C0.778333 8.63498 2.18917 10.2925 4.06667 10.67C3.7225 10.7625 3.35917 10.8125 2.98667 10.8125C2.725 10.8125 2.47417 10.7875 2.22333 10.7408C2.74917 12.3683 4.26083 13.555 6.06 13.5883C4.66 14.6875 2.88583 15.3425 0.975 15.3425C0.65 15.3425 0.325833 15.3233 0 15.2866C1.82417 16.4483 3.97333 17.1275 6.2975 17.1275C13.8425 17.1275 17.9633 10.8808 17.9633 5.47248C17.9633 5.29831 17.9633 5.12248 17.9508 4.94748C18.7517 4.37331 19.4508 3.64748 20.0008 2.82414L19.9617 2.80748Z" />
                 </svg>
-              </a>*/}
-            </div>
-            
-            <div className="text-center text-gray-500 text-sm pb-12">
-              <p>© 2022. Learn Kraft, All right reserverd.</p>
-            </div>
+              </a>
+              {/*<a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+          </a>*/}
+            </span>
           </div>
-        </footer>
+        </div>
+      </footer>
   );
 }
