@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/hero-image-02.jpg" />
+          <img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/hero-5.png" />
             {/*<div className="mt-10 w-[25rem] overflow-hidden rounded-xl sm:w-auto lg:mt-0 lg:w-[47.8125rem]">
                 <img className="w-full" alt="hero" src="/images/hero-image-02.jpg" />
   </div>*/}
@@ -349,7 +349,7 @@ const Home: NextPage = () => {
               
                 <button 
                 onClick={()=> trigChat()}
-                className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg shadow shadow-lg">Chat With Us</button>
+                className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-brand-600 rounded text-lg shadow shadow-lg">Chat With Us</button>
 
             </div>
 
