@@ -12,8 +12,11 @@ const Home: NextPage = () => {
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             {/*<h2 className="text-amber-500 bg-blue-50 rounded-lg px-2 py-1 mb-2 uppercase font-semibold text-sm">Web &middot; Mobile &middot; Content</h2>*/}
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in <span className="text-brand-500">web</span> 
-              <br className="hidden lg:inline-block" /><span className="text-brand-600">development</span> and <span className="text-brand-500">content marketing</span>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in 
+            
+            <span className="text-brand-500"> web</span> 
+              <br className="hidden lg:inline-block" />
+              <span className="text-brand-600">development</span> and <span className="text-brand-500">content marketing</span>
             </h1>
             <p className="mb-8 leading-relaxed text-lg text-gray-800">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
             Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
@@ -30,8 +33,13 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="/images/hero-image-02.jpg" />
+          <img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/hero-image-02.jpg" />
+            {/*<div className="mt-10 w-[25rem] overflow-hidden rounded-xl sm:w-auto lg:mt-0 lg:w-[47.8125rem]">
+                <img className="w-full" alt="hero" src="/images/hero-image-02.jpg" />
+  </div>*/}
+                    
           </div>
+{/*<img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/headway-5QgIuuBxKwM-unsplash.jpg" />*/}
         </div>
       </section>
       {/* FEATURES */}
