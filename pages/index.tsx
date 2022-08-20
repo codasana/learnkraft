@@ -66,7 +66,7 @@ const Home: NextPage = () => {
         <div className="container py-12 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="flex flex-col text-center w-full mb-8">
             <h2 className="text-xs text-brand-500 tracking-widest font-medium title-font mb-1">SERVICES</h2>
-            <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 max-w-xl mx-auto">Think of us as a partner, not agency in your business journey.</h1>
+            <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 max-w-xl mx-auto">Think of us as a partner, not an agency in your business journey.</h1>
           </div>
           <div className="flex flex-wrap m-4">
             <div className="p-4 md:w-1/3">
@@ -188,7 +188,7 @@ const Home: NextPage = () => {
                   <h2 className="text-gray-900 text-lg title-font font-semibold">Marketing Automation</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">We help you nurture and engage with your audience by provding deep integration with marketing platforms such as HubSpot, Marketo, Intercom, and others. </p>
+                  <p className="leading-relaxed text-base">We help you nurture and engage with your audience by providing deep integration with marketing platforms such as HubSpot, Marketo, Intercom, and others. </p>
                   {/*<Link href="/services/marketing-automation">
                   <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
