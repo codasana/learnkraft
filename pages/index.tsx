@@ -5,6 +5,25 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from "../components/Layout"
 const Home: NextPage = () => {
+
+  const trigChat = () => {
+    // @ts-ignore
+    if (window.HubSpotConversations) {
+      console.log('Yes');
+      // @ts-ignore
+      window.HubSpotConversations.widget.open()
+    } else {
+      // @ts-ignore
+      window.hsConversationsOnReady = [
+        // @ts-ignore
+        () => {
+          // @ts-ignore
+          window.HubSpotConversations.widget.open()
+        }
+      ];
+    }
+  }
+
   return (
     <Layout title="Web Development and Content Marketing">
       {/* HERO */}
@@ -21,14 +40,14 @@ const Home: NextPage = () => {
             <p className="mb-8 leading-relaxed text-lg text-gray-800">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
             Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
             <div className="flex justify-center">
-              <Link href="/contact">
-                <a className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
+
+                <button onClick={()=> trigChat()} className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
                   Work With Us
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
-                </a>
-              </Link>
+                </button>
+
               {/*<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>*/}
             </div>
           </div>
@@ -321,15 +340,17 @@ const Home: NextPage = () => {
               />
             </div>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Hire Us</h1>
-            <p className="mb-8 leading-relaxed text-gray-900 text-lg">Are you looking to start a new project or need help with your existing project? During our free 45-minute session, we'll talk about your needs and how we can work together to fulfil your needs. </p>
+            <p className="mb-8 leading-relaxed text-gray-900 text-lg">Are you looking to start a new project or need help with your existing project? Chat with us to talk about your needs and how we can work together to fulfil your needs. </p>
             <div className="flex w-full md:justify-start justify-center items-end mb-12">
               {/*<div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
                 <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
                 <input type="text" id="hero-field" name="hero-field" className="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-  </div>*/}
-              <Link href="/contact">
-                <a className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg shadow shadow-lg">Schedule Your Free Consultation</a>
-              </Link>
+                </div>*/}
+              
+                <button 
+                onClick={()=> trigChat()}
+                className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg shadow shadow-lg">Chat With Us</button>
+
             </div>
 
             <div className="flex lg:flex-row md:flex-col ml-1 mt-4">

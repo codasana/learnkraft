@@ -9,21 +9,8 @@ import { server } from '../config';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  //{ name: 'Data Science', href: '/section/data-science', current: false },
-  { name: 'R Programming', href: '/track/r-programming', current: false },
-  { name: 'Python Programming', href: '/track/python-programming', current: false },
-  { name: 'CFA Exam', href: '/section/cfa-level-1', current: false },
-  { name: 'Derivatives', href: '/track/derivatives-courses', current: false },
-  { name: 'Quantitative Methods and Statistics', href: '/track/statistics-maths', current: false },
-  { name: 'Economics', href: '/track/economics', current: false },
-  { name: 'Equities', href: '/track/equities', current: false },
-  { name: 'Fixed Income', href: '/track/fixed-income', current: false },
-  { name: 'Portfolio Management', href: '/track/portfolio-management', current: false },
-  { name: 'Risk Management', href: '/track/risk-management', current: false },
-  { name: 'Accounting / Financial Reporting', href: '/track/accounting-financial-reporting', current: false },
-  { name: 'Financial Markets', href: '/track/financial-markets', current: false },
-  { name: 'Corporate Finance', href: '/track/corporate-finance', current: false },
   { name: 'Blog', href: '/blog', current: false },
+  { name: 'Contact', href: '/contact', current: false },
   //{ name: 'Topics', href: '/topics', current: false },
   //{ name: 'Calculators', href: '/calculator', current: false },
   
@@ -36,7 +23,23 @@ function classNames(...classes: any[]) {
 export default function Header() {
 
   const router = useRouter()
-
+  const trigChat = () => {
+    // @ts-ignore
+    if (window.HubSpotConversations) {
+      console.log('Yes');
+      // @ts-ignore
+      window.HubSpotConversations.widget.open()
+    } else {
+      // @ts-ignore
+      window.hsConversationsOnReady = [
+        // @ts-ignore
+        () => {
+          // @ts-ignore
+          window.HubSpotConversations.widget.open()
+        }
+      ];
+    }
+  }
 
   return (
     <div id="header"> {/* className="border-b"*/}
@@ -162,11 +165,11 @@ export default function Header() {
               </div>
               <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <div className="space-x-4">
-                  <Link href="/contact" passHref>
-                    <a className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-slate-700 focus:outline-none hover:text-white hover:bg-ligreen-normal">
-                    Schedule Your Free Consultation
-                  </a>
-                  </Link>
+
+                    <button onClick={()=> trigChat()} className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-slate-700 focus:outline-none hover:text-white hover:bg-ligreen-normal">
+                    Chat With Us
+                  </button>
+
                   {/*<a href="/premium" className="flex-shrink-0 text-white text-base font-semibold py-2 px-4 rounded-lg border bg-ligreen hover:bg-green-600 hover:border-green-600 focus:outline-none">
                     Go Premium
                 </a>*/}
