@@ -43,7 +43,7 @@ export default function Header() {
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
-          <div className="bg-blue-200">
+          <div className="bg-blue-100">
             <div className="relative flex items-center justify-between h-20 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -77,7 +77,7 @@ export default function Header() {
                     >
                       Home
                     </a>
-                    <Menu as="div" className="relative px-3 py-2">
+                    {/*<Menu as="div" className="relative px-3 py-2">
                   <div>
                     <Menu.Button className="flex text-base rounded-md focus:outline-none items-center group font-medium text-gray-800">
                       <span className="sr-only">Open user menu</span>
@@ -143,7 +143,7 @@ export default function Header() {
 	
                     </Menu.Items>
                   </Transition>
-                </Menu>
+                        </Menu>*/}
                     <a
                       href="/blog"
                       className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}

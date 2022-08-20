@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Layout title="Web Development and Content Marketing">
       {/* HERO */}
-      <section className="text-gray-600 body-font bg-gradient-to-b from-blue-200"> {/*   */}
+      <section className="text-gray-600 body-font bg-gradient-to-b from-blue-100"> {/*   */}
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             {/*<h2 className="text-amber-500 bg-blue-50 rounded-lg px-2 py-1 mb-2 uppercase font-semibold text-sm">Web &middot; Mobile &middot; Content</h2>*/}
@@ -43,140 +43,156 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-wrap m-4">
             <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                <Image src="/images/web-app.png" height="80" width="138" />
+                </div>
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Web Apps</h2>
+  </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Web Apps</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services/apps">
+                  <p className="leading-relaxed text-base">We specialize in developing scalable, full-stack web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.</p>
+                  {/*<Link href="/services/apps">
                     <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
-                  </Link>
+                  </Link>*/}
                 </div>
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                <Image src="/images/mobile-app.png" height="80" width="81" />
+                </div>
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx={12} cy={7} r={4} />
                     </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Mobile Apps</h2>
+                </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Mobile Apps</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services/apps">
+                  <p className="leading-relaxed text-base">We build robust cross-platform mobile apps for iPhone, Tablet, and Android. We work with you right from app development to submission and management on the App Store and Google Play.</p>
+                  {/*<Link href="/services/apps">
                   <a  className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  </Link>
+                </Link>*/}
                 </div>
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                <Image src="/images/website.png" height="80" width="106" />
+                </div>
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <circle cx={6} cy={6} r={3} />
                       <circle cx={6} cy={18} r={3} />
                       <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" />
                     </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Marketing Websites</h2>
+                  </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">WordPress and Jamstack Websites</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services/websites">
+                  <p className="leading-relaxed text-base">Our UX designers and developers work together to build easy-to-navigate and unique websites to help you attract and engage with your customers using WordPress and Jamstack technologies.</p>
+                  {/*<Link href="/services/websites">
                     <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
-                  </Link>
+                  </Link>*/}
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-wrap m-4">
             <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                <Image src="/images/content-marketing.png" height="80" width="118" />
+                </div>
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Content Marketing</h2>
+                  </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Content Marketing</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services/content-marketing">
+                  <p className="leading-relaxed text-base">We provide scalable content marketing services to help you boost traffic and generate leads. This includes developing your content marketing strategy, and writing targeted content for every need including blogs.</p>
+                  {/*<Link href="/services/content-marketing">
                     <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
-                  </Link>
+                  </Link>*/}
                 </div>
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                  <Image src="/images/marketing-automation.png" height="80" width="126" />
+                </div>
                 <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg>
+                  </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Marketing Automation</h2>
+                </div>
+                <div className="flex-grow">
+                  <p className="leading-relaxed text-base">We help you nurture and engage with your audience by provding deep integration with marketing platforms such as HubSpot, Marketo, Intercom, and others. </p>
+                  {/*<Link href="/services/marketing-automation">
+                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                  </Link>*/}
+                </div>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3">
+              <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
+                <div className="mb-2">
+                  <Image src="/images/maintenace.png" height="80" width="133" />
+                </div>
+                <div className="flex items-center mb-3">
+                  {/*<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx={12} cy={7} r={4} />
                     </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Marketing Automation</h2>
+                  </div>*/}
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Ongoing Maintenance</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <Link href="/services/marketing-automation">
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                  <p className="leading-relaxed text-base">We provide you a dedicated developer to help you with bug fixes and new feature development. You can choose the number of hours you need every month based on a monthly set rate. </p>
+                  {/*<a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
-                  </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="p-4 md:w-1/3">
-              <div className="flex rounded-lg h-full bg-white p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-brand-500 text-white flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
-                      <circle cx={6} cy={6} r={3} />
-                      <circle cx={6} cy={18} r={3} />
-                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" />
-                    </svg>
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">Ongoing Maintenance</h2>
-                </div>
-                <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                  </a>*/}
                 </div>
               </div>
             </div>
@@ -188,7 +204,7 @@ const Home: NextPage = () => {
         <div className="container px-5 py-24 mx-auto px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="text-center mb-12">
             <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4">Some of our happy clients</h1>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">We take our clients' satisfaction very seriously. We are dedicated to meeting our clients' demands.</p>
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 rounded-full bg-brand-500 inline-flex" />
             </div>
@@ -221,7 +237,7 @@ const Home: NextPage = () => {
         </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-blue-50 p-8 rounded">
+              <div className="h-full bg-blue-50 p-8 rounded shadow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
@@ -236,7 +252,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-blue-50 p-8 rounded">
+              <div className="h-full bg-blue-50 p-8 rounded shadow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
@@ -253,7 +269,7 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-blue-50 p-8 rounded">
+              <div className="h-full bg-blue-50 p-8 rounded shadow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
@@ -268,7 +284,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-blue-50 p-8 rounded">
+              <div className="h-full bg-blue-50 p-8 rounded shadow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-brand-500 mb-4" viewBox="0 0 975.036 975.036">
                   <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
                 </svg>
@@ -297,7 +313,7 @@ const Home: NextPage = () => {
               />
             </div>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Hire Us</h1>
-            <p className="mb-8 leading-relaxed text-gray-900 text-lg">Have a project in mind? Let's talk. </p>
+            <p className="mb-8 leading-relaxed text-gray-900 text-lg">Are you looking to start a new project or need help with your existing project? During our free 45-minute session, we'll talk about your needs and how we can work together to fulfil your needs. </p>
             <div className="flex w-full md:justify-start justify-center items-end mb-12">
               {/*<div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
                 <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
