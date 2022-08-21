@@ -31,6 +31,7 @@ const Home: NextPage = () => {
       description="Our services include web and mobile apps, marketing websites, content marketing and marketing automation."
       openGraph={{
         url: 'https://learnkraft.com',
+        title: 'Web Development and Content Marketing Services',
         description: 'Our services include web and mobile apps, marketing websites, content marketing and marketing automation.',
         images: [
           {
