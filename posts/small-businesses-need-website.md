@@ -1,6 +1,6 @@
 ---
 title: Why Small Businesses Need a Website
-date: 2022-06-09
+date: 2022-07-09
 category: GROWTH
 image: '/blog/alvaro-serrano-kr8XPYuSI8-unsplash.jpg'
 author: 'Sheeba Manish'

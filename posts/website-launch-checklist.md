@@ -1,0 +1,115 @@
+---
+title: 'Website Launch Checklist: Things to Do Before Website Launch'
+date: 2022-06-09
+category: WEBSITE
+image: '/blog/So-You-Want-To-Start-A-Website-1.png'
+author: 'Sheeba Manish'
+---
+
+A store launch often has many months of planning, implementation, review, and redesigning that goes into it. This is true for a multi-brand store, a coffee lounge, a 24-hour pharmacy or even a farm equipment showroom. Typically, a checklist is followed to ensure all aspects are covered. Similar care is expected but not always found in business websites. The site could be showcasing products, services or content. Whatever the site may be for, it is important to ensure that many checkboxes are ticked right. If not, the site will not deliver the value it is intended to and an online presence may not seem as impactful. In this post, we are presenting our website launch checklist that we use while launching our clients' websites. If you are launching your website, this checklist will help you ensure that you are on the right track.
+
+![Website Launch Checklist](/blog/website-1624028_1280.png)
+
+Image Source: Pixabay
+
+As with everything, let's start at the very beginning, a very good place to start.
+
+It is always a good, no great idea to sit down and write down all the things you expect your website will help you with. If you are a bookseller, you would want your website to contain your catalog, share book reviews, alert customers to store events and online promotions -- basically engage every visitor to the site and hopefully have them buy a book, visit the store more often and spread the word about the store on social media.
+
+You may also want a certain look on the website that could range from the rustic to the modern. Since customers will be making transactions on your website, you would definitely want the site to be secure and don't want anyone hacking into it. It is better that you enumerate these points and jot down notes if any alongside. These points can be put down over a few days or a month during the launch phase. Make sure you have a notebook handy to put down everything that comes to your mind.
+
+Once you have a bundle of thoughts, trim down to the essential and cast away those you no longer need. Key to this list of 'expectations from the website' is to be able to put down the objective of the website, or simply -- what is this website about? If you can answer that question clearly, move forward, else, ruminate further till you get the answer to that question.
+
+Once this is out of the way, or rather showing you the way ahead, you can get down to the brass tacks of getting the site up. The best way to ensure you have everything in place before you actually launch your website is to have a list. This way you can break up what is a large project into tiny doable bits.
+
+## Design -- Website Launch Checklist
+
+Everyone loves ideating about the **DESIGN** — colours to be chosen, font style, etc. Web design has standards that must be adhere to. The framework design of the website is also of critical importance. Let's look at the most important checkpoints.
+
+***Responsive Design***: It is important to see how the website will look in different devices; choosing a responsive theme is a must.
+
+***Image Optimization***: Ensure images are in png format — clear yet light in size; Heavy images make the website load slower. There are many tools such as [TinyPng](https://tinypng.com/) that you can use to optimize. Alternatively, if you are you are building your website on wordpress, you can make use of plugins to optimize the images.
+
+***Browser Fit***: Ensure you view the website using different browsers. Chrome, Safari, Firefox, Internet Explorer are some of the browsers to run the site through. Cross-border compatibility is important.
+
+***Validate W3C Standards***: Ensure all HTML standards are met. You can ensure this by running the code through validation sites.
+
+***Favicon (Shortcut icon)***: A tiny but useful touch is to generate and add a favicon for your website. There are many tools such as [favicomatic.com](http://www.favicomatic.com/) that you can use to generate a favicon for your website.
+
+***Mobile-readiness***: A lot of folks use their mobile to make transactions, read and share posts. Ensure your website is mobile-ready. You can use the [Google Mobile Testing](https://www.google.com/webmasters/tools/mobile-friendly/) service to analyse your site.
+
+***Print Stylesheet***: Do you think your customers would like to take a print of your web pages? If yes, help them by putting up print ready stylesheets.
+
+***Validate CSS Stylesheet***: Just as important as validating the HTML code is to validate the CSS as well. [Codebeautify.com](http://codebeautify.org/), [css-validator.org](http://www.css-validator.org/), [jigsaw.w3.org ](https://jigsaw.w3.org/)are some CSS validator sites. You should also ensure that you keep the stylesheet file (CSS file) light and remove any unused styles from it. The smaller the file size, the faster it loads.
+
+## Content Checklist
+
+**CONTENT** is the king or at least it should be. Content marketing is a powerful tool to drive traffic to your site and keep it there. It is a great way to show the depth of expertise your company has. Make sure you have this covered in your website launch checklist.
+
+***Original content***: Put up original content that speaks to your customers. Heavy, dowdy text can be very off-putting. Sometimes while planning the website layouts, you may add dummy text (lorem ipsum) to the newly created pages. Take care that all dummy text is replaced with relevant information before the website launch.
+
+***Proofread content***: Use a text editor like [Grammarly](https://www.grammarly.com/) to check your content for grammar and punctuation errors.
+
+***Keep links alive***: Check embedded video and audio files. With the passage of time one sometimes sees broken links; make sure you check the links from time to time. Do the same for any files that you may have kept to download as well.
+
+***Contact page***: Make sure you have contact details on your website. Prospective customers will need telephone and e-mail details to get in touch with you. Make sure it is easy to find. If you've embedded a contact form, double-check to ensure that it is working and you're receiving emails.
+
+***Redirect***: If you are shifting from an older site to a new one, do have a redirect page in place.
+
+***Blog inventory***: Does your website have a blog? Make sure you have a few written up. Always have some in the pipeline to keep the content fresh and the website interesting.
+
+## Functionality Checklist
+
+**FUNCTIONALITY** leads to happy customers and should be high in your website launch checklist. The horror stories of exasperated customers who simply can't get things done on a website are far too many to recount. The mark of an awesome site is one that enables the customer. A few simple checks can take care of this.
+
+***Web Form***: Make sure all forms on your website are tested. The best way to do this is to fill them, make notes if any glitches are there and ensure they are fixed. Do also check the information entered is correctly captured and stored.
+
+***Page Speed***: Is your website loading fast? Check the website speed using tools such as Google Pagespeed Insights or Pingdom. A low score is indicative that you need to fix issues (heavy images for instance) to increase the speed of the page.
+
+***Get Social***: Are your social buttons working? Make sure they are. Customers/readers will want to share on social network platforms and non-working buttons can be off-putting.
+
+***Plug-in check***: Check if plugins that are installed are working as they should. If plugins are not updated it can lead to problems. Any plugin you use should have good developer support or they can greatly reduce the functionality of your website.
+
+***Accessible to all***: A good website is accessible to all its users. This means users with special needs. A good website needs to be perceivable, operable, understandable and robust. Ready to use accessible themes that follow the WCAG or Web Content Accessibility Guidelines are available to use.
+
+***Autoresponses and Feeds***: If your site has a RSS feed or triggers auto response mail on a form being filled, make sure it is working.
+
+## SEO Checklist
+
+**SEARCH ENGINE OPTIMIZATION or SEO,** is one area that you should look at carefully and is an important part of your website launch checklist.
+
+***Plugin an SEO***: Use a plugin like [Yoast](https://yoast.com/) to improve search engine optimization.
+
+***Post Title***: Have unique, phrase-like headings that get picked up by search engines.
+
+![Website Launch Checklist - Do the SEO](/blog/seo-1592134_1280.png)
+
+***Meta Descriptions***: Use meta descriptions that are less than 160 characters. The descriptions should have key words that readers will use to search. Check metadata in RSS feeds too.
+
+***Content Analysis***: Run your content and titles through a content analysis software for SEO. This will ensure your content drives in more prospective customers by popping high up during a keyword search.
+
+## Customer Lead Acquisition -- Checklist
+
+**CUSTOMER LEAD ACQUISITION **is one of the primary reason why companies set up websites. Even content driven sites seek more subscribers to their website.
+
+***Signup***: Insert a signup box on the website where customers can signup to get news and information through a newsletter. Newsletters are great tools to cross-sell or showcase new product offerings in depth.
+
+***E-mail Marketing Software***: Softwares like [MailChimp](https://mailchimp.com/) and [ConvertKit](https://convertkit.com/) make it incredibly easy to send out newsletters to opt-ins.
+
+***Consistency across platforms***: Chances are you will want to list your business on Facebook, Google Plus, Tumblr, Pintrest and Twitter. Do put your website address with a link back to your homepage; try to keep the branding consistent across these platforms.
+
+## Legal Stuff -- Checklist
+
+Promises made on a website are **LEGAL**ly binding, particularly when customers make purchases on the site.
+
+***Terms and Conditions***: Have a page dedicated to Terms and Conditions and make sure customers agree to it before taking the purchase further.
+
+***Disclosures***: In some countries, visitors to the site need to be informed if cookies are in place that tracks visitor activity on the site.
+
+***Privacy***: If you are collecting emails, make sure you assure customers that their information will stay private. Only unscrupulous players hawk customer databases and lose their trust.
+
+***Credits, licenses, and copyrights***: If you are sharing information from another website, do give them credit; indicate the source of images. Any statements regarding copyright must be included where necessary. Licenses of plugins or software used in the website must be valid.
+
+***Law of the land***: Your website will have a scope of jurisdiction. Ensure that your website adheres to digital rules of that jurisdiction. (eg. Bulk mailing, credit card rules etc.)
+
+Finally, get that virtual megaphone and spread the word about your website.

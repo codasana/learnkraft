@@ -3,6 +3,8 @@ import Head from "next/head";
 import { format, parseISO } from "date-fns";
 import { allPosts, Post } from "contentlayer/generated";
 import Image from 'next/image';
+import CTA from "../../components/CTA"
+
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url);
   return {
@@ -67,7 +69,7 @@ const PostLayout = ({ post }) => {
                 <div dangerouslySetInnerHTML={{ __html: post.body.html }} className="w-full mt-8 prose dark:prose-dark max-w-none font-serif text-lg"/>
             </article>
         </main>
-
+        <CTA />
     </Layout>
   );
 };

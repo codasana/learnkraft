@@ -76,16 +76,16 @@ export default function Home({ posts }) {
   return (
     <Layout>
       <Head>
-            <title>The Creator Blog - Learn Kraft</title>
+            <title>Blog - Learn Kraft</title>
             <meta content="Blog by Creatpad - Resources to help you grow your business" name="description" key="metadescription"/>
         </Head>
         {/*  Page sections */}
 
-        <section className="text-gray-600 body-font overflow-hidden bg-gradient-to-b from-blue-200 to-blue-100">
+        <section className="text-gray-600 body-font overflow-hidden bg-gradient-to-b from-blue-100 to-blue-100">
           <div className="container mx-auto px-4 md:px-10 lg:px-32 pt-16 pb-8">
             <div className="flex flex-col text-center w-full mb-16">
-              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 font-serif">The Creator Blog</h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-lg text-gray-700">Resources to help you grow your business</p>
+              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 font-serif">Learn Kraft Blog</h1>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-lg text-gray-700">Resources to help you grow your business digitally.</p>
             </div>
           </div>
         </section>
