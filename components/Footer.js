@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from 'next/link'
-
+import Newsletter from './Newsletter';
 export default function Footer() {
   return (
         <footer className="text-gray-600 body-font bg-gradient-to-b from-gray-800 to-gray-900">
@@ -21,17 +21,17 @@ export default function Footer() {
               <nav className="list-none mb-10">
                 <li className="mb-2">
                 <Link href="/">
-                <a className="text-base text-gray-300 font-medium hover:text-black">Home</a>
+                <a className="text-base text-gray-300 font-medium hover:text-white">Home</a>
               </Link>
                 </li>
                 <li  className="mb-2">
                 <Link href="/blog">
-                <a className="text-base text-gray-300 font-medium hover:text-black">Blog</a>
+                <a className="text-base text-gray-300 font-medium hover:text-white">Blog</a>
               </Link>
                 </li>
                 <li>
               <Link href="/contact">
-                <a className="text-base text-gray-300 font-medium hover:text-black">Contact Us</a>
+                <a className="text-base text-gray-300 font-medium hover:text-white">Contact Us</a>
               </Link>
               </li>
                 {/*<li className="mb-2">
@@ -48,22 +48,22 @@ export default function Footer() {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              {/*<h2 className="title-font font-semibold text-gray-900 tracking-widest text-lg mb-3">&nbsp;</h2>
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-lg mb-3">&nbsp;</h2>
               <nav className="list-none mb-10">
-              <li  className="mb-2">
-                <Link href="/blog">
-                <a className="text-base text-gray-300 font-medium hover:text-black">Blog</a>
-              </Link>
+                <li  className="mb-2">
+                  <Link href="/privacy">
+                  <a className="text-base text-gray-300 font-medium hover:text-white">Privacy</a>
+                </Link>
+                  </li>
+                  <li>
+                <Link href="/terms">
+                  <a className="text-base text-gray-300 font-medium hover:text-white">Terms</a>
+                </Link>
                 </li>
-                <li>
-              <Link href="/contact">
-                <a className="text-base text-gray-300 font-medium hover:text-black">Contact Us</a>
-              </Link>
-              </li>
-  </nav>*/}
+              </nav>
             </div>
             <div className="lg:w-2/4 md:w-1/2 w-full px-4">
-
+            <Newsletter />
             </div>
             {/*<div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
