@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from "../components/Layout"
+import { NextSeo } from 'next-seo';
 const Home: NextPage = () => {
 
   const trigChat = () => {
@@ -25,7 +26,27 @@ const Home: NextPage = () => {
   }
 
   return (
-    <Layout title="Web Development and Content Marketing">
+    <>
+    <NextSeo
+      description="Our services include web and mobile apps, marketing websites, content marketing and marketing automation."
+      openGraph={{
+        url: 'https://learnkraft.com',
+        title: 'Web Development and Content Marketing Services - Learn Kraft',
+        description: 'Our services include web and mobile apps, marketing websites, content marketing and marketing automation.',
+        images: [
+          {
+            url: '/images/learnkraft-cover.png',
+            width: 1200,
+            height: 600,
+            alt: 'Learn Kraft Cover',
+            type: 'image/png',
+          },
+        ],
+        site_name: 'Learn Kraft',
+      }}
+
+    />
+    <Layout title="Web Development and Content Marketing Services - Learn Kraft">
       {/* HERO */}
       <section className="text-gray-600 body-font bg-gradient-to-b from-blue-100"> {/*   */}
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
@@ -374,6 +395,7 @@ const Home: NextPage = () => {
         </div>
       </section>
     </Layout>
+    </>
   )
 }
 
