@@ -20,7 +20,7 @@ export default function Features() {
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
-  </div>*/}
+                    </div>*/}
                   <h2 className="text-gray-900 text-lg title-font font-semibold">Web Apps</h2>
                 </div>
                 <div className="flex-grow">
