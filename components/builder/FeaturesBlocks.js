@@ -14,8 +14,8 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="text-3xl mb-4 text-white font-serif">What can you build?</h2>
-            <p className="text-xl text-white">Creatpad allows you to build website for all your needs. Whether you want a landing page for your new product, 
-            a portfolio site to showcase your work, or a blog, Creatpad provides you with all the necessary tools to build a professional website. </p>
+            <p className="text-xl text-white">Learn Kraft Website Builder allows you to build website for all your needs. Whether you want a landing page for your new product, 
+            a portfolio site to showcase your work, or a blog, Learn Kraft provides you with all the necessary tools to build a professional website. </p>
           </div>
 
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
