@@ -9,11 +9,11 @@ import { server } from '../config';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
+  { name: 'Services', href: '/services', current: false },
   { name: 'Blog', href: '/blog', current: false },
   { name: 'Contact', href: '/contact', current: false },
   //{ name: 'Topics', href: '/topics', current: false },
   //{ name: 'Calculators', href: '/calculator', current: false },
-  
 ]
 
 function classNames(...classes: any[]) {
@@ -74,12 +74,14 @@ export default function Header() {
                 </a>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
+                    <Link href="/">
                     <a
-                      href="/"
+                      
                       className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}
                     >
                       Home
                     </a>
+                    </Link>
                     {/*<Menu as="div" className="relative px-3 py-2">
                   <div>
                     <Menu.Button className="flex text-base rounded-md focus:outline-none items-center group font-medium text-gray-800">
@@ -146,14 +148,22 @@ export default function Header() {
 	
                     </Menu.Items>
                   </Transition>
+                  
                         </Menu>*/}
+                    <Link href="/services">
                     <a
-                      href="/blog"
+                      className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}
+                    >
+                      Services
+                    </a>
+                    </Link>   
+                    <Link href="/blog">
+                    <a
                       className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}
                     >
                       Blog
                     </a>
-
+                    </Link>    
                     <a
                         href="/contact"
                         className="text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium"

@@ -24,16 +24,22 @@ export default function Footer() {
                 <a className="text-base text-gray-300 font-medium hover:text-white">Home</a>
               </Link>
                 </li>
-                <li  className="mb-2">
+                <li className="mb-2">
                 <Link href="/blog">
                 <a className="text-base text-gray-300 font-medium hover:text-white">Blog</a>
               </Link>
                 </li>
+                <li className="mb-2">
+                  <Link href="/services">
+                    <a className="text-base text-gray-300 font-medium hover:text-white">Services</a>
+                  </Link>
+                </li>
                 <li>
-              <Link href="/contact">
-                <a className="text-base text-gray-300 font-medium hover:text-white">Contact Us</a>
-              </Link>
-              </li>
+                  <Link href="/builder">
+                    <a className="text-base text-gray-300 font-medium hover:text-white">Website Builder</a>
+                  </Link>
+                </li>
+                
                 {/*<li className="mb-2">
                 <Link href="/about">
                 <a className="text-base text-gray-300 font-medium hover:text-black">About</a>
@@ -50,7 +56,12 @@ export default function Footer() {
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-lg mb-3">&nbsp;</h2>
               <nav className="list-none mb-10">
-                <li  className="mb-2">
+                <li className="mb-2">
+                  <Link href="/contact">
+                    <a className="text-base text-gray-300 font-medium hover:text-white">Contact Us</a>
+                  </Link>
+                </li>
+                <li className="mb-2">
                   <Link href="/privacy">
                   <a className="text-base text-gray-300 font-medium hover:text-white">Privacy</a>
                 </Link>
