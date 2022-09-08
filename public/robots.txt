@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://learnkraft.com
+
+# Sitemaps
+Sitemap: https://learnkraft.com/sitemap.xml
