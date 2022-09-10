@@ -1,9 +1,13 @@
 import Layout from '../../components/Layout';
 import Head from "next/head";
 import { format, parseISO } from "date-fns";
-import { allPosts, Post } from "contentlayer/generated";
 import Image from 'next/image';
 import CTA from "../../components/CTA"
+import { Video } from '../../components/blog/Video'
+import { Wistia } from '../../components/blog/Wistia'
+import { useLiveReload, useMDXComponent } from 'next-contentlayer/hooks'
+import { allPosts, Post } from "contentlayer/generated";
+
 
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url);
@@ -25,7 +29,48 @@ export async function getStaticProps({ params }) {
   };
 }
 
+const BlogImage = ({
+  src,
+  alt,
+  width,
+  height,
+  className,
+}) => {
+  return (
+    <div className={`${className} overflow-hidden rounded-lg text-center`}>
+      <div className="-mb-3">
+        <Image
+          src={src}
+          alt={alt}
+          width={width ?? '1600'}
+          height={height ?? '900'}
+          placeholder="blur"
+          blurDataURL={src}
+        />
+      </div>
+    </div>
+  )
+}
+const Center = ({
+  children
+}) => {
+  return (
+    <div className={`text-center mt-2 mb-4`}>
+      {children}
+    </div>
+  )
+}
+
+const mdxComponents = {
+  Video,
+  BlogImage,
+  Wistia,
+  Center
+}
 const PostLayout = ({ post }) => {
+  useLiveReload();
+  const MDXContent = useMDXComponent(post.body.code || '')
+  
   return (
     <Layout>
       <Head>
@@ -66,7 +111,10 @@ const PostLayout = ({ post }) => {
                     width="720"
                     height="400"
                 />
-                <div dangerouslySetInnerHTML={{ __html: post.body.html }} className="w-full mt-8 prose dark:prose-dark max-w-none font-serif text-lg"/>
+                <div className="w-full mt-8 prose dark:prose-dark max-w-none font-serif text-lg">
+                  {MDXContent && <MDXContent components={{ ...mdxComponents }} />}
+                </div>
+                {/*<div dangerouslySetInnerHTML={{ __html: post.body.html }} className="w-full mt-8 prose dark:prose-dark max-w-none font-serif text-lg"/>*/}
             </article>
         </main>
         <CTA />

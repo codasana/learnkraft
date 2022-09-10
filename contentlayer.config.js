@@ -1,9 +1,11 @@
 import { defineDocumentType, makeSource } from 'contentlayer/source-files'
 import readingTime from 'reading-time';
+import highlight from 'rehype-highlight'
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `**/*.md`,
+  filePathPattern: `**/*.mdx`,
+  contentType: 'mdx',
   fields: {
     title: {
       type: 'string',
@@ -47,4 +49,5 @@ export const Post = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'posts',
   documentTypes: [Post],
+  mdx: { rehypePlugins: [highlight] },
 })
