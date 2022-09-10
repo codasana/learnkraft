@@ -11,7 +11,7 @@ export const Video: FC<{
           <iframe
             width="100%"
             height="100%"
-            src={`https://www.youtube-nocookie.com/embed/${videoId}?&autoplay=1`}
+            src={`https://www.youtube-nocookie.com/embed/${videoId}?&autoplay=0`}
             loading="lazy"
             allowFullScreen
             title="Intro to Contentlayer"
