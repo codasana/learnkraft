@@ -105,13 +105,13 @@ export default function Features() {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">We provide scalable content marketing services to help you boost traffic and generate leads. This includes developing your content marketing strategy, and writing targeted content for every need including blogs.</p>
-                  {/*<Link href="/services/content-marketing">
+                  <Link href="/services/content-marketing">
                     <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
-                  </Link>*/}
+                  </Link>
                 </div>
               </div>
             </div>
