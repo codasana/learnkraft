@@ -77,7 +77,7 @@ export default function Home({ posts }) {
     <Layout>
       <Head>
             <title>Blog - Learn Kraft</title>
-            <meta content="Blog by Creatpad - Resources to help you grow your business" name="description" key="metadescription"/>
+            <meta content="Blog by Learn Kraft - Resources to help you grow your business" name="description" key="metadescription"/>
         </Head>
         {/*  Page sections */}
 

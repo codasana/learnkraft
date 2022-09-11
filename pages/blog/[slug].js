@@ -7,8 +7,8 @@ import { Video } from '../../components/blog/Video'
 import { Wistia } from '../../components/blog/Wistia'
 import { useLiveReload, useMDXComponent } from 'next-contentlayer/hooks'
 import { allPosts, Post } from "contentlayer/generated";
-
-
+import { NextSeo } from 'next-seo';
+import { useRouter } from 'next/router'
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url);
   return {
@@ -70,8 +70,14 @@ const mdxComponents = {
 const PostLayout = ({ post }) => {
   useLiveReload();
   const MDXContent = useMDXComponent(post.body.code || '')
-  
   return (
+    <>
+    <NextSeo
+      canonical={`https://learnkraft.com/${post?.url}`}
+      openGraph={{
+        url: `https://learnkraft.com/${post?.url}`,
+      }}
+    />
     <Layout>
       <Head>
             <title>{post.title}</title>
@@ -80,6 +86,7 @@ const PostLayout = ({ post }) => {
             <meta property="og:title" content={post.title} key="ogtitle"/>
             <meta property="og:image" content={`https://learnkraft.com${post.image}`} key="ogimage"/>
             <meta property="og:description" content={post.description ? post.description : post.title} key="ogdescription"/>
+            <meta property="og:url" content={post.title} key="ogtitle"/>
             <meta name="twitter:title" content={post.title} key="twittertitle"/>
             <meta name="twitter:image" content={`https://learnkraft.com${post.image}`} key="twitterimage"/>
             <meta name="twitter:description" content={post.description ? post.description : post.title} key="twitterdescription"/>
@@ -119,6 +126,7 @@ const PostLayout = ({ post }) => {
         </main>
         <CTA />
     </Layout>
+    </>
   );
 };
 
