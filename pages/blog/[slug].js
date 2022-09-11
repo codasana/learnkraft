@@ -79,7 +79,7 @@ const PostLayout = ({ post }) => {
             <meta property="og:type" content="article" key="ogtype"/>
             <meta property="og:title" content={post.title} key="ogtitle"/>
             <meta property="og:image" content={`https://learnkraft.com${post.image}`} key="ogimage"/>
-            <meta property="og:description" content={post.title} key="ogdescription"/>
+            <meta property="og:description" content={post.description ? post.description : post.title} key="ogdescription"/>
             <meta name="twitter:title" content={post.title} key="twittertitle"/>
             <meta name="twitter:image" content={`https://learnkraft.com${post.image}`} key="twitterimage"/>
             <meta name="twitter:description" content={post.title} key="twitterdescription"/>
