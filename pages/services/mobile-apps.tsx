@@ -26,9 +26,9 @@ const Home: NextPage = () => {
   }
 
   let meta = {
-    title: "Web App Development Services - Learn Kraft",
-    description:'We specialize in developing scalable, full-stack web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.',
-    image:'/images/services/web-app.png'
+    title: "Mobile App Development Services - Learn Kraft",
+    description:'We build robust cross-platform mobile apps for iPhone, Tablet, and Android. We work with you right from app development to submission and management on the App Store and Google Play.',
+    image:'/images/services/mobile-app.png'
   }
   return (
     <Layout title="Web App Development Services">
@@ -47,12 +47,12 @@ const Home: NextPage = () => {
       <section className="text-gray-600 body-font bg-gradient-to-b from-blue-100"> {/*   */}
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            {<h2 className="text-amber-500 bg-blue-50 rounded-sm px-2 py-1 mb-2 uppercase font-semibold text-base">Web App Development</h2>}
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900" style={{lineHeight:1.25}}>Robust, scalable, full-stack 
+            {<h2 className="text-amber-500 bg-blue-50 rounded-sm px-2 py-1 mb-2 uppercase font-semibold text-base">Mobile App Development</h2>}
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900" style={{lineHeight:1.25}}>Powerful, cross-platform
               <br className="hidden lg:inline-block" />
-              <span className="text-brand-600"> web applications</span>
+              <span className="text-brand-600"> mobile apps</span>
             </h1>
-            <p className="mb-8 leading-relaxed text-lg text-gray-800">We specialize in developing scalable, full-stack web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.</p>
+            <p className="mb-8 leading-relaxed text-lg text-gray-800">We build robust cross-platform mobile apps for iPhone, Tablet, and Android. We work with you right from app development to submission and management on the App Store and Google Play.</p>
             <div className="flex justify-center">
 
                 <button onClick={()=> trigChat()} className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
@@ -66,8 +66,8 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <div className="flex items-center justify-center">
-            <img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/services/web-app.png" />
+            <div className="flex items-center justify-center">
+          <img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/services/mobile-app.png" />
           </div>
             {/*<div className="mt-10 w-[25rem] overflow-hidden rounded-xl sm:w-auto lg:mt-0 lg:w-[47.8125rem]">
                 <img className="w-full" alt="hero" src="/images/hero-image-02.jpg" />

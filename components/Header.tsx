@@ -82,7 +82,7 @@ export default function Header() {
                       Home
                     </a>
                     </Link>
-                    {/*<Menu as="div" className="relative px-3 py-2">
+                    <Menu as="div" className="relative px-3 py-2">
                   <div>
                     <Menu.Button className="flex text-base rounded-md focus:outline-none items-center group font-medium text-gray-800">
                       <span className="sr-only">Open user menu</span>
@@ -102,14 +102,23 @@ export default function Header() {
                     <Menu.Items className="z-10 origin-top-right absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/services/apps"
+                          <a href="/services/web-apps"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
-                            Web and Mobile Apps
+                            Web App Development
                           </a>
                         )}
                       </Menu.Item>
                       <Menu.Item>
+                        {({ active }) => (
+                          <a href="/services/mobile-apps"
+                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
+                          >
+                            Mobile App Development
+                          </a>
+                        )}
+                      </Menu.Item>
+                      {/*<Menu.Item>
                         {({ active }) => (
                           <a href="/services/websites"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
@@ -144,19 +153,19 @@ export default function Header() {
                             Ongoing Maintenance
                           </a>
                         )}
-                      </Menu.Item>
+                        </Menu.Item>*/}
 	
                     </Menu.Items>
                   </Transition>
                   
-                        </Menu>*/}
-                    <Link href="/services">
+                        </Menu>
+                    {/*<Link href="/services">
                     <a
                       className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}
                     >
                       Services
                     </a>
-                    </Link>   
+                      </Link>  */} 
                     <Link href="/blog">
                     <a
                       className={classNames('text-gray-800 hover:text-ligreen','px-3 py-2 rounded-md text-base font-medium')}
