@@ -10,7 +10,15 @@ module.exports = withContentlayer({
       'pbs.twimg.com' // Twitter Profile Picture
     ]
   },
-
+  async redirects() {
+    return [
+      {
+        source: '/services/apps',
+        destination: '/services/mobile-apps',
+        permanent: true,
+      },
+    ]
+  },
 });
 
 

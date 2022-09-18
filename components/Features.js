@@ -130,13 +130,13 @@ export default function Features() {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">We help you nurture and engage with your audience by providing deep integration with marketing platforms such as HubSpot, Marketo, Intercom, and others. </p>
-                  {/*<Link href="/services/marketing-automation">
-                  <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                  </Link>*/}
+                  <Link href="/services/marketing-automation">
+                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
