@@ -5,6 +5,7 @@ import Image from 'next/image';
 import CTA from "../../components/CTA"
 import { Video } from '../../components/blog/Video'
 import { Wistia } from '../../components/blog/Wistia'
+import { Link } from '../../components/blog/Link'
 import { useLiveReload, useMDXComponent } from 'next-contentlayer/hooks'
 import { allPosts, Post } from "contentlayer/generated";
 import { NextSeo } from 'next-seo';
@@ -61,11 +62,13 @@ const Center = ({
   )
 }
 
+
 const mdxComponents = {
   Video,
   BlogImage,
   Wistia,
-  Center
+  Center,
+  a: Link
 }
 const PostLayout = ({ post }) => {
   useLiveReload();
