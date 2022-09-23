@@ -18,8 +18,8 @@ module.exports = withContentlayer({
       {source: '/website-launch-checklist',destination: '/blog/website-launch-checklist',permanent: true},
       {source: '/how-to-add-custom-post-types-to-your-blog-homepage',destination: '/blog',permanent: true},
       {source: '/bluemail/subscribe',destination: '/',permanent: true},
-      {source: '/home-2/lk-banner/',destination: '/',permanent: true},
-      {source: '/project/financetrain/',destination: '/services',permanent: true},
+      {source: '/home-2/lk-banner',destination: '/',permanent: true},
+      {source: '/project/financetrain',destination: '/services',permanent: true},
     ]
   },
 });
