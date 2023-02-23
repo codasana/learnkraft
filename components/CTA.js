@@ -2,26 +2,9 @@ import Image from 'next/image'
 
 export default function CTA() {
 
-    const trigChat = () => {
-        // @ts-ignore
-        if (window.HubSpotConversations) {
-          console.log('Yes');
-          // @ts-ignore
-          window.HubSpotConversations.widget.open()
-        } else {
-          // @ts-ignore
-          window.hsConversationsOnReady = [
-            // @ts-ignore
-            () => {
-              // @ts-ignore
-              window.HubSpotConversations.widget.open()
-            }
-          ];
-        }
-      }
 
     return (
-      <section className="text-gray-600 body-font bg-blue-50 rounded">
+      <section className="text-gray-600 body-font bg-blue-50 rounded" id="CTA">
         <div className="container mx-auto flex py-12 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="">
@@ -33,14 +16,7 @@ export default function CTA() {
             </div>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Hire Us</h1>
             <p className="mb-8 leading-relaxed text-gray-900 text-lg">Are you looking to start a new project or need help with your existing project? Chat with us to talk about your needs and how we can work together to fulfil your needs. </p>
-            {/*<div className="flex w-full md:justify-start justify-center items-end mb-12">
 
-            
-                <button 
-                onClick={()=> trigChat()}
-                className="inline-flex text-white bg-slate-700 border-0 py-2 px-6 focus:outline-none hover:bg-brand-600 rounded text-lg shadow shadow-lg">Chat With Us</button>
-
-            </div>*/}
 
             <div className="flex lg:flex-row md:flex-col ml-1 mt-4">
               <a href="https://wa.me/919901599967" target="_blank" className="inline-flex rounded items-center focus:outline-none mr-6  hover:underline">

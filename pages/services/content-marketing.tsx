@@ -7,23 +7,6 @@ import Layout from "../../components/Layout"
 import CTA from "../../components/CTA"
 const Home: NextPage = () => {
 
-  const trigChat = () => {
-    // @ts-ignore
-    if (window.HubSpotConversations) {
-      console.log('Yes');
-      // @ts-ignore
-      window.HubSpotConversations.widget.open()
-    } else {
-      // @ts-ignore
-      window.hsConversationsOnReady = [
-        // @ts-ignore
-        () => {
-          // @ts-ignore
-          window.HubSpotConversations.widget.open()
-        }
-      ];
-    }
-  }
 
   let meta = {
     title: "Content Marketing Services - Learn Kraft",
@@ -56,12 +39,12 @@ const Home: NextPage = () => {
               We provide scalable content marketing services to help you boost traffic and generate leads. This includes developing your content marketing strategy, and writing targeted content for every need including blogs.</p>
             <div className="flex justify-center">
 
-                <button onClick={()=> trigChat()} className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
+                <a href="#CTA" className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
                   Work With Us
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
-                </button>
+                </a>
 
               {/*<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>*/}
             </div>

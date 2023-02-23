@@ -23,23 +23,7 @@ function classNames(...classes: any[]) {
 export default function Header() {
 
   const router = useRouter()
-  const trigChat = () => {
-    // @ts-ignore
-    if (window.HubSpotConversations) {
-      console.log('Yes');
-      // @ts-ignore
-      window.HubSpotConversations.widget.open()
-    } else {
-      // @ts-ignore
-      window.hsConversationsOnReady = [
-        // @ts-ignore
-        () => {
-          // @ts-ignore
-          window.HubSpotConversations.widget.open()
-        }
-      ];
-    }
-  }
+
 
   return (
     <div id="header"> {/* className="border-b"*/}
@@ -184,14 +168,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              {/*<div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  <div className="space-x-4">
 
-                    <button onClick={()=> trigChat()} className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-slate-700 focus:outline-none hover:text-white hover:bg-ligreen-normal">
-                    Chat With Us
-                  </button>
-                </div>
-              </div>*/}
             </div>
           </div>
 
