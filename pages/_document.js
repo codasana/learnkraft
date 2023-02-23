@@ -23,11 +23,11 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script
+        {/*<Script
           src="//js-na1.hs-scripts.com/22484415.js"
           strategy="lazyOnload"
           id="hs-script-loader"
-        ></Script>
+      ></Script>*/}
       </body>
     </Html>
   )

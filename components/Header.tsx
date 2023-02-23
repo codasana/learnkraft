@@ -129,13 +129,13 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a href="/services/marketing-automation"
+                          <a href="/services/websites"
                             className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
                           >
-                            Marketing Automation
+                            Websites
                           </a>
                         )}
-                      </Menu.Item>
+                        </Menu.Item>
                       {/*<Menu.Item>
                         {({ active }) => (
                           <a href="/services/websites"
@@ -184,21 +184,14 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              {/*<div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <div className="space-x-4">
 
                     <button onClick={()=> trigChat()} className="flex-shrink-0 text-white text-base font-semibold py-3 rounded-sm px-4 bg-slate-700 focus:outline-none hover:text-white hover:bg-ligreen-normal">
                     Chat With Us
                   </button>
-
-                  {/*<a href="/premium" className="flex-shrink-0 text-white text-base font-semibold py-2 px-4 rounded-lg border bg-ligreen hover:bg-green-600 hover:border-green-600 focus:outline-none">
-                    Go Premium
-                </a>*/}
                 </div>
-
-                
-
-              </div>
+              </div>*/}
             </div>
           </div>
 

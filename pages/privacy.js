@@ -211,7 +211,7 @@ we process your personal information under the following lawful bases:</p>
 <h1>Contact Us</h1>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By email: hello@learnkraft.com</li>
+<li>By email: manish@learnkraft.com</li>
 </ul>
 
         </div>

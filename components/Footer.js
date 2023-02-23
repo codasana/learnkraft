@@ -35,9 +35,9 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/builder">
-                    <a className="text-base text-gray-300 font-medium hover:text-white">Website Builder</a>
-                  </Link>
+                  <a href="https://creatpad.com" target="_blank">
+                    <span className="text-base text-gray-300 font-medium hover:text-white">Website Builder</span>
+                  </a>
                 </li>
                 
                 {/*<li className="mb-2">
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
         <div>
           <div className="container mx-auto py-4 flex flex-wrap flex-col sm:flex-row px-2 sm:px-6 lg:px-8 max-w-screen-xl">
-            <p className="text-gray-500 text-sm text-center sm:text-left">© 2022. Learn Kraft, All right reserverd.
+            <p className="text-gray-500 text-sm text-center sm:text-left">© 2023. Learn Kraft, All right reserverd.
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-500" href="https://www.facebook.com/learnkraft">
