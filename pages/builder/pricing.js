@@ -48,12 +48,13 @@ export default function Home() {
                     </svg>
                   </span>No credit card required
                 </p>
-                <Link href="/builder/#subscribe">
-                <a className="flex items-center mt-auto text-brand-500 bg-white border-2 border-brand-500 py-3 px-4 w-full focus:outline-none hover:bg-brand-600 hover:text-white rounded font-medium">Get Started
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <Link
+                  href="/builder/#subscribe"
+                  className="flex items-center mt-auto text-brand-500 bg-white border-2 border-brand-500 py-3 px-4 w-full focus:outline-none hover:bg-brand-600 hover:text-white rounded font-medium">
+                  Get Started<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
-                </a>
+
                 </Link>
                 <p className="text-sm text-gray-600 mt-3">30-day free trial. No credit card required.</p>
               </div>
@@ -87,12 +88,13 @@ export default function Home() {
                     </svg>
                   </span>No credit card required
                 </p>
-                <Link href="/builder/#subscribe">
-                  <a className="flex items-center mt-auto text-brand-500 bg-white border-2 border-brand-500 py-3 px-4 w-full focus:outline-none hover:bg-brand-500 hover:text-white rounded font-medium">Get Started
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                <Link
+                  href="/builder/#subscribe"
+                  className="flex items-center mt-auto text-brand-500 bg-white border-2 border-brand-500 py-3 px-4 w-full focus:outline-none hover:bg-brand-500 hover:text-white rounded font-medium">
+                  Get Started<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+
                 </Link>
                 <p className="text-sm text-gray-600 mt-3">30-day free trial. No credit card required.</p>
               </div>
@@ -104,5 +106,5 @@ export default function Home() {
       </main>
 
     </Layout>
-  )
+  );
 }

@@ -20,13 +20,14 @@ export default function Features() {
                 </div>
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">
-                    We specialize in developing scalable, full-stack web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.</p>
-                  <Link href="/services/web-apps">
-                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </a>
+                    Full-stack ReactJS web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.</p>
+                  <Link
+                    href="/services/web-apps"
+                    className="mt-3 text-brand-500 inline-flex items-center">
+                    Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+
                   </Link>
                 </div>
               </div>
@@ -40,14 +41,15 @@ export default function Features() {
                   <h2 className="text-gray-900 text-lg title-font font-semibold">Mobile Apps</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">We build robust cross-platform mobile apps for iPhone, Tablet, and Android. We work with you right from app development to submission and management on the App Store and Google Play.</p>
-                  <Link href="/services/mobile-apps">
-                  <a  className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <p className="leading-relaxed text-base">Robust cross-platform mobile apps for iPhone, Tablet, and Android using React Native. We work with you right from app development to submission and management on the App Store and Google Play.</p>
+                  <Link
+                    href="/services/mobile-apps"
+                    className="mt-3 text-brand-500 inline-flex items-center">
+                    Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
-                  </a>
-                </Link>
+
+                  </Link>
                 </div>
               </div>
             </div>
@@ -62,13 +64,14 @@ export default function Features() {
                   <h2 className="text-gray-900 text-lg title-font font-semibold">Marketing and eCommerce Websites</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">Our UX designers and developers work together to build easy-to-navigate and unique websites to help you attract and engage with your customers using WordPress and Jamstack technologies.</p>
-                  <Link href="/services/websites">
-                    <a  className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </a>
+                  <p className="leading-relaxed text-base">Fast, scalable, easy-to-navigate and unique websites to help you attract and engage with your customers using NextJS, WordPress, headless CMS, and Jamstack technologies.</p>
+                  <Link
+                    href="/services/websites"
+                    className="mt-3 text-brand-500 inline-flex items-center">
+                    Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+
                   </Link>
                 </div>
               </div>
@@ -79,16 +82,17 @@ export default function Features() {
                 <Image src="/images/content-marketing.png" height="80" width="118" />
                 </div>
                 <div className="flex items-center mb-3">
-                  <h2 className="text-gray-900 text-lg title-font font-semibold">Content Marketing</h2>
+                  <h2 className="text-gray-900 text-lg title-font font-semibold">Backend Development</h2>
                 </div>
                 <div className="flex-grow">
-                  <p className="leading-relaxed text-base">We provide scalable content marketing services to help you boost traffic and generate leads. This includes developing your content marketing strategy, and writing targeted content for every need including blogs.</p>
-                  <Link href="/services/content-marketing">
-                    <a className="mt-3 text-brand-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </a>
+                  <p className="leading-relaxed text-base">Resilient, secure backend solutions using Node/Express, serverless technologies, and API development. Expertise in cloud deployment ensures scalable and seamless digital experiences.</p>
+                  <Link
+                    href="/services/content-marketing"
+                    className="mt-3 text-brand-500 inline-flex items-center">
+                    Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+
                   </Link>
                 </div>
               </div>
@@ -129,4 +133,4 @@ export default function Features() {
           </div>
         </div>
       </section>
-    )}
+    );}

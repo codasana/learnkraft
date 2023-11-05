@@ -16,8 +16,8 @@ const Home: NextPage = () => {
       description="Our services include web and mobile apps, marketing websites, content marketing and marketing automation."
       openGraph={{
         url: 'https://learnkraft.com',
-        title: 'Web Development and Content Marketing Services',
-        description: 'Our services include web and mobile apps, marketing websites, content marketing and marketing automation.',
+        title: 'Learn Kraft - ReactJS Web App and Mobile App Development Agency',
+        description: 'Our services include Full-stack ReactJS web and mobile apps, marketing websites, Headless-CMS websites, and ecommerce sites.',
         images: [
           {
             url: 'https://learnkraft.com/images/learnkraft-cover.png',
@@ -33,18 +33,17 @@ const Home: NextPage = () => {
     />
     <Layout title="Web Development and Content Marketing Services">
       {/* HERO */}
-      <section className="text-gray-600 body-font bg-gradient-to-b from-blue-100"> {/*   */}
+      <section className="text-gray-600 body-font bg-zinc-100"> 
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             {/*<h2 className="text-amber-500 bg-blue-50 rounded-lg px-2 py-1 mb-2 uppercase font-semibold text-sm">Web &middot; Mobile &middot; Content</h2>*/}
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your partner in 
-            
-            <span className="text-brand-500"> web</span> 
-              <br className="hidden lg:inline-block" />
-              <span className="text-brand-600">development</span> and <span className="text-brand-500">content marketing</span>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900" style={{lineHeight:1.2}}>Your partner in 
+            <br className="hidden lg:inline-block" />
+            <span className="text-brand-500 ml-2 lg:ml-0">Web</span> and <span className="text-brand-500 mr-2 lg:mr-0">Mobile App</span>
+            <br className="hidden lg:inline-block" />
+            development
             </h1>
-            <p className="mb-8 leading-relaxed text-lg text-gray-800">Since 2016, we've helped over 100 startups and businesses launch successful websites, web applications, and mobile apps. 
-            Our services include web and mobile apps, marketing websites, content marketing and marketing automation.</p>
+            <p className="mb-8 leading-relaxed text-lg text-gray-800">Full-stack ReactJS web app and mobile app development, tailored to provide innovative solutions and elevate your digital presence.</p>
             <div className="flex justify-center">
 
                 <a href="#CTA" className="inline-flex text-brand-500 border border-brand-500 py-2 px-6 focus:outline-none hover:bg-brand-600 hover:text-white rounded text-lg items-center">
@@ -81,18 +80,18 @@ const Home: NextPage = () => {
           </div>
           <div className="flex items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
-            <div className="p-6"><Image src="/images/de-logo.png" height="50" width="150" /></div>
-            <div className="p-6"><Image src="/images/flavor.png" height="50" width="100" /></div>
-            <div className="p-6"><Image src="/images/cx_logo.png" height="26" width="180" /></div>
-            <div className="p-6"><Image src="/images/comeet-logo.png" height="35" width="150" /></div>
+            <div className="p-6"><Image src="/images/de-logo.png" height="50" width="150" alt="Deep English" /></div>
+            <div className="p-6"><Image src="/images/flavor.png" height="50" width="100" alt="Flavor" /></div>
+            <div className="p-6"><Image src="/images/cx_logo.png" height="26" width="180"  alt="client"/></div>
+            <div className="p-6"><Image src="/images/comeet-logo.png" height="35" width="150" alt="Comeet"/></div>
 
           </div>
           <div className="flex items-center justify-center sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
-            <div className="p-6"><Image src="/images/ft-logo.png" height="35" width="172" /></div>
-            <div className="p-6"><Image src="/images/iaied.png" height="39" width="100" /></div>
-            <div className="p-6"><Image src="/images/hifi-logo.gif" height="55" width="90" /></div>
-            <div className="p-6"><Image src="/images/marketxls-logo.png" height="27" width="150" /></div>
+            <div className="p-6"><Image src="/images/ft-logo.png" height="35" width="172" alt="Finance Train"/></div>
+            <div className="p-6"><Image src="/images/iaied.png" height="39" width="100" alt="IAIED" /></div>
+            <div className="p-6"><Image src="/images/hifi-logo.gif" height="55" width="90" alt="hifi"/></div>
+            <div className="p-6"><Image src="/images/marketxls-logo.png" height="27" width="150" alt="Market XLS"/></div>
 
           </div>
         </div>
