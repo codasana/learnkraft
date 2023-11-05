@@ -36,66 +36,9 @@ return (
       </Link>
       <nav className="hidden md:flex justify-center space-x-8">
         <Link href="/" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Home</Link>
-        <Menu as="div" className="relative">
-                  <div>
-                    <Menu.Button className="flex focus:outline-none items-center group text-gray-600 hover:text-gray-800 font-normal text-[15px]">
-                      <span className="sr-only">Open user menu</span>
-                      Services
-                      <ChevronDownIcon className="h-4 w-4 text-gray group-hover:text-ligreen ml-1"/>
-                    </Menu.Button>
-                  </div>
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="z-10 origin-top-right absolute left-0 mt-2 w-60 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a href="/services/web-apps"
-                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
-                          >
-                            Web App Development
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a href="/services/mobile-apps"
-                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
-                          >
-                            Mobile App Development
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a href="/services/content-marketing"
-                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
-                          >
-                            Content Marketing
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a href="/services/websites"
-                            className={classNames(active ? 'bg-ligreen-light' : '', 'block px-4 py-2 text-sm text-gray-700 hover:bg-ligreen-light')}
-                          >
-                            Websites
-                          </a>
-                        )}
-                        </Menu.Item>
-	
-                    </Menu.Items>
-                  </Transition>
-                  
-                        </Menu>
+        <Link href="/services" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Services</Link>
         <Link href="/blog" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Blog</Link>
+        <a className="text-gray-600 hover:text-gray-800 font-normal text-[15px]" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
         <Link href="/contact" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Contact Us</Link>
       </nav>
     </div>
@@ -127,6 +70,7 @@ return (
         <div className="mt-8">
           <Link className="rw-mobilenav-item block" href="/services">Services</Link>
           <Link className="rw-mobilenav-item block" href="/blog">Blog</Link>
+          <a className="rw-mobilenav-item block" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
           <Link className="rw-mobilenav-item block" href="/contact">Contact</Link>
         </div>
         {/*<div className="font-display my-8 text-xl">

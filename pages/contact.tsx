@@ -31,10 +31,10 @@ const Home: NextPage = () => {
   return (
     <Layout title="Contact Us - Learn Kraft">
       <section className="text-gray-600 body-font relative">
-      <div className="container px-8 py-10 mx-auto max-w-2xl text-left bg-blue-50 my-12 rounded rounded-lg">
+      <div className="container px-8 py-10 mx-auto max-w-2xl text-left bg-zinc-100 my-12 rounded rounded-lg">
    <div className="flex flex-col w-full">
       <p className="leading-relaxed text-xl font-normal mb-2">Hi, I'm Manish, the founder and lead developer at Learn Kraft.</p>
-      <p className="leading-relaxed text-xl font-normal mb-4">You can contact me for any queries or or new project requirements.</p>
+      <p className="leading-relaxed text-xl font-normal mb-4">You can contact me for any queries or new project requirements.</p>
       <div className="flex items-center mb-4">
          <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="mr-2">
             <rect width={20} height={16} x={2} y={4} rx={2} />

@@ -66,6 +66,7 @@ const Home: NextPage = () => {
 {/*<img className="object-cover object-center rounded rounded-lg" alt="hero" src="/images/headway-5QgIuuBxKwM-unsplash.jpg" />*/}
         </div>
       </section>
+      
       {/* FEATURES */}
       <Features />
       {/* CLIENTS */}

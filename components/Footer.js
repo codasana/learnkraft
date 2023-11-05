@@ -38,22 +38,15 @@ export default function Footer() {
                 Services
               </Link>
             </li>
-            <li>
-              <a href="https://creatpad.com" target="_blank">
-                <span className="text-base text-gray-300 font-medium hover:text-white">Website Builder</span>
+            <li className="mb-2">
+              <a
+                href="https://modernsoftware.substack.com"
+                className="text-base text-gray-300 font-medium hover:text-white"
+                target="_blank"  
+              >
+                Newsletter
               </a>
             </li>
-            
-            {/*<li className="mb-2">
-            <Link href="/about">
-            <a className="text-base text-gray-300 font-medium hover:text-black">About</a>
-          </Link>
-            </li>
-            <li>
-            <Link href="/services">
-            <a className="text-base text-gray-300 font-medium hover:text-black">Services</a>
-          </Link>
-</li>*/}
 
           </nav>
         </div>
