@@ -22,7 +22,7 @@ export default function Features() {
                   <p className="leading-relaxed text-base">
                     Full-stack ReactJS web applications including user-friendly and highly functional front-end combined with secure and reliable admin backends for business users.</p>
                   <Link
-                    href="/services/web-apps"
+                    href="/services"
                     className="mt-3 text-brand-500 inline-flex items-center">
                     Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
@@ -43,7 +43,7 @@ export default function Features() {
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Robust cross-platform mobile apps for iPhone, Tablet, and Android using React Native. We work with you right from app development to submission and management on the App Store and Google Play.</p>
                   <Link
-                    href="/services/mobile-apps"
+                    href="/services"
                     className="mt-3 text-brand-500 inline-flex items-center">
                     Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
@@ -66,7 +66,7 @@ export default function Features() {
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Fast, scalable, easy-to-navigate and unique websites to help you attract and engage with your customers using NextJS, WordPress, headless CMS, and Jamstack technologies.</p>
                   <Link
-                    href="/services/websites"
+                    href="/services"
                     className="mt-3 text-brand-500 inline-flex items-center">
                     Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
@@ -87,7 +87,7 @@ export default function Features() {
                 <div className="flex-grow">
                   <p className="leading-relaxed text-base">Resilient, secure backend solutions using Node/Express, serverless technologies, and API development. Expertise in cloud deployment ensures scalable and seamless digital experiences.</p>
                   <Link
-                    href="/services/content-marketing"
+                    href="/services"
                     className="mt-3 text-brand-500 inline-flex items-center">
                     Learn More<svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7" />
