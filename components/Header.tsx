@@ -35,11 +35,12 @@ return (
         <img className="h-8 w-auto" src="/images/lk-logo.png" alt="Logo" />
       </Link>
       <nav className="hidden md:flex justify-center space-x-8">
-        <Link href="/" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Home</Link>
-        <Link href="/services" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Services</Link>
-        <Link href="/blog" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Blog</Link>
-        <a className="text-gray-600 hover:text-gray-800 font-normal text-[15px]" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
-        <Link href="/contact" className="text-gray-600 hover:text-gray-800 font-normal text-[15px]">Contact Us</Link>
+        <Link href="/" className="text-gray-800 hover:underline font-medium text-[15px]">Home</Link>
+        <Link href="/services" className="text-gray-800 hover:underline font-medium text-[15px]">Services</Link>
+        <Link href="/tech-stack" className="text-gray-800 hover:underline font-medium text-[15px]">Tech Stack</Link>
+        <Link href="/blog" className="text-gray-800 hover:underline font-medium text-[15px]">Blog</Link>
+        <a className="text-gray-800 hover:underline font-medium text-[15px]" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
+        <Link href="/contact" className="text-gray-800 hover:underline font-medium text-[15px]">Contact Us</Link>
       </nav>
     </div>
 
@@ -69,6 +70,7 @@ return (
         </div>
         <div className="mt-8">
           <Link className="rw-mobilenav-item block" href="/services">Services</Link>
+          <Link className="rw-mobilenav-item block" href="/tech-stack">Our Tech Stack</Link>
           <Link className="rw-mobilenav-item block" href="/blog">Blog</Link>
           <a className="rw-mobilenav-item block" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
           <Link className="rw-mobilenav-item block" href="/contact">Contact</Link>
