@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       }}
 
     />
-    <Layout title="Web Development and Content Marketing Services">
+    <Layout title="Full-stack ReactJS Web App and Mobile App Dev Agency">
       {/* HERO */}
       <section className="text-gray-600 body-font bg-zinc-100"> 
         <div className="container mx-auto flex py-16 md:flex-row flex-col items-center px-2 sm:px-6 lg:px-8 max-w-screen-xl">
