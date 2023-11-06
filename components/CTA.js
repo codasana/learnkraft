@@ -18,14 +18,14 @@ export default function CTA() {
             <p className="mb-8 leading-relaxed text-gray-900 text-lg">Are you looking to start a new project or need help with your existing project? Chat with us to talk about your needs and how we can work together to fulfil your needs. </p>
 
 
-            <div className="flex lg:flex-row md:flex-col ml-1 mt-4">
-              <a href="https://wa.me/919901599967" target="_blank" className="inline-flex rounded items-center focus:outline-none mr-6  hover:underline">
+            <div className="flex md:flex-row flex-col ml-1 mt-4 items-center space-y-2 md:space-y-0">
+              <a href="https://wa.me/919901599967" target="_blank" className="inline-flex rounded items-center focus:outline-none md:mr-6  hover:underline">
                 <Image src="/images/whatsapp-brands.png" height="23" width="20"/>
                 <span className="ml-2 flex items-start flex-col leading-none">
                   <span className="text-lg text-gray-600">+91 9901599967</span>
                 </span>
               </a>
-              <a href="mailto:manish@learnkraft.com" className="inline-flex rounded items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 focus:outline-none hover:underline">
+              <a href="mailto:manish@learnkraft.com" className="inline-flex rounded items-center lg:ml-4 md:ml-0 ml-4 focus:outline-none hover:underline">
               <Image src="/images/envelope-solid.png" height="20" width="20"/>
                 <span className="ml-2 flex items-start flex-col leading-none">
                   <span className="text-lg text-gray-600">manish@learnkraft.com</span>
