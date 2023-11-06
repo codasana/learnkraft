@@ -38,6 +38,7 @@ return (
         <Link href="/" className="text-gray-800 hover:underline font-medium text-[15px]">Home</Link>
         <Link href="/services" className="text-gray-800 hover:underline font-medium text-[15px]">Services</Link>
         <Link href="/tech-stack" className="text-gray-800 hover:underline font-medium text-[15px]">Tech Stack</Link>
+        <Link href="/work" className="text-gray-800 hover:underline font-medium text-[15px]">Work</Link>
         <Link href="/blog" className="text-gray-800 hover:underline font-medium text-[15px]">Blog</Link>
         <a className="text-gray-800 hover:underline font-medium text-[15px]" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
         <Link href="/contact" className="text-gray-800 hover:underline font-medium text-[15px]">Contact Us</Link>
@@ -71,6 +72,7 @@ return (
         <div className="mt-8">
           <Link className="rw-mobilenav-item block" href="/services">Services</Link>
           <Link className="rw-mobilenav-item block" href="/tech-stack">Our Tech Stack</Link>
+          <Link className="rw-mobilenav-item block" href="/work">Work</Link>
           <Link className="rw-mobilenav-item block" href="/blog">Blog</Link>
           <a className="rw-mobilenav-item block" href="https://modernsoftware.substack.com/" target="__blank">Newsletter</a>
           <Link className="rw-mobilenav-item block" href="/contact">Contact</Link>

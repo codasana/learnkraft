@@ -79,7 +79,7 @@ export default function Features() {
             <div className="p-4 md:w-1/2">
               <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow">
                 <div className="mb-2">
-                <Image src="/images/content-marketing.png" height="80" width="118" />
+                <Image src="/images/maintenace.png" height="80" width="118" />
                 </div>
                 <div className="flex items-center mb-3">
                   <h2 className="text-gray-900 text-lg title-font font-semibold">Backend Development</h2>
