@@ -48,6 +48,15 @@ const Home: NextPage = () => {
          </svg>
          <a className="text-xl font-normal text-blue-600" href="https://x.com/msahajwani">@msahajwani</a>
       </div>
+      <div className="flex flex-col mt-6">
+         <div className="text-xl font-bold">Mail Us:</div>
+         <div className="text-lg">
+          Learn Kraft Info Solutions LLP,<br />
+          B-1502, Glen Gate, House of Hiranandani,<br />
+          Kodigehalli Main Road, Devi Nagar,<br />
+          Bengaluru - 560092
+         </div>
+      </div>
    </div>
 </div>
       </section>
